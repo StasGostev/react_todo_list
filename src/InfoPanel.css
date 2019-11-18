@@ -1,0 +1,9 @@
+.display > span {
+  margin: 0 12px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.display > span.selected {
+  color: orange;
+}

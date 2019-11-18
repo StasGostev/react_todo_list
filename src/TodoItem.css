@@ -1,0 +1,16 @@
+.completed {
+  text-decoration: line-through red;
+}
+
+.item .removed{
+  display: none;
+}
+
+.item:hover .removed {
+  display: inline;
+  font-weight: bold;
+  margin-left: 10px;
+  color: white;
+  background: red;
+  text-decoration: none;
+}
